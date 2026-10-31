@@ -9,6 +9,7 @@ add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 add_executable(
 	${PROJECT_NAME} 
 	src/main.c
+	src/window.c
 )
 
 # Link to the actual SDL3 library.
